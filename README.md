@@ -46,6 +46,7 @@ sudo ./install.sh
 ```
 
 This installs NanoBots to `/opt/nanobot` as a systemd service that:
+
 - Starts automatically on boot (early boot stage)
 - Waits for network before running
 - Restarts itself in 5 seconds if it crashes

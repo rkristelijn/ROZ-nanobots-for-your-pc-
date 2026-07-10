@@ -26,6 +26,7 @@ make ci      # test + check (full pipeline, same as GitHub Actions)
 ```
 
 Checks:
+
 1. **ruff** — linting, import sorting, security, complexity (≤10)
 2. **mypy** — type checking
 3. **semgrep** — security scan
@@ -33,7 +34,7 @@ Checks:
 
 ## Workflow
 
-```
+```text
 main (protected — no direct commits)
   └── feat/<name>
         └── PR → CI → merge
